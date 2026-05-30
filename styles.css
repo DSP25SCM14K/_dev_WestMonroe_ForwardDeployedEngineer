@@ -101,15 +101,15 @@ h3 { color: var(--text); font-size: 1.24rem; line-height: 1.2; letter-spacing: 0
     linear-gradient(90deg, rgba(3, 8, 12, 0.99) 0%, rgba(3, 8, 12, 0.91) 36%, rgba(3, 8, 12, 0.48) 68%, rgba(3, 8, 12, 0.78) 100%),
     linear-gradient(180deg, rgba(3, 8, 12, 0.12), rgba(3, 8, 12, 0.98) 94%);
 }
-.hero-content { width: min(900px, 100%); transform: translateY(-58px); }
+.hero-content { width: min(900px, 100%); transform: translateY(-86px); }
 .eyebrow { margin: 0 0 18px; color: var(--cyan); font-family: "JetBrains Mono", monospace; font-size: 12px; font-weight: 800; letter-spacing: 0; text-transform: uppercase; }
 .hero-lede { max-width: 960px; margin-bottom: 18px; color: var(--text); font-size: clamp(1.98rem, 4.05vw, 4.02rem); font-weight: 900; line-height: 1.05; letter-spacing: 0; }
 .hero-copy { max-width: 840px; margin-bottom: 26px; color: var(--muted); font-size: clamp(1.05rem, 1.7vw, 1.28rem); }
-.typed-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; min-height: 32px; margin-bottom: 36px; color: var(--dim); font-size: 0.95rem; font-weight: 800; }
+.typed-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; min-height: 24px; margin-bottom: 0; color: var(--dim); font-size: 0.9rem; font-weight: 800; }
 .typed-row strong { max-width: 100%; color: var(--text); overflow-wrap: anywhere; }
-.cursor { width: 2px; height: 22px; background: var(--cyan); animation: blink 1s step-end infinite; }
+.cursor { width: 2px; height: 20px; background: var(--cyan); animation: blink 1s step-end infinite; }
 .hero-actions, .link-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
-.hero-actions { margin-bottom: 18px; }
+.hero-actions { margin-bottom: 4px; }
 .button, .link-row a { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; border-radius: 8px; font-weight: 900; transition: transform 180ms ease, border-color 180ms ease, background 180ms ease; }
 .button { padding: 0 22px; border: 1px solid rgba(50, 216, 255, 0.45); }
 .button.primary { border-color: transparent; background: linear-gradient(135deg, var(--cyan), var(--green)); color: #031014; }
