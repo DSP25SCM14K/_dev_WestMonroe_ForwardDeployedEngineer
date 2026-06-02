@@ -1,10 +1,11 @@
 const phrases = [
-  "operational intelligence platforms",
-  "full-stack client workflows",
-  "Neo4j graph and RAG retrieval",
-  "REST, GraphQL, and webhook integrations",
-  "event-driven data pipelines",
-  "cloud deployments with reusable patterns"
+  "operational intelligence from fragmented systems",
+  "Python, Golang, and Erlang backend workflows",
+  "Neo4j, Cypher, graph, and RAG retrieval",
+  "REST, GraphQL, webhook, and connector integrations",
+  "event-driven and batch data pipelines",
+  "AWS, Azure, and GCP deployment patterns",
+  "stakeholder needs into production-ready software"
 ];
 
 const typedText = document.querySelector("#typed-text");
